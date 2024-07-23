@@ -12,6 +12,9 @@
   .nav__link--btn {
     font-size: 1.3rem;
   }
+  .nav__link--btns {
+    font-size: 0.3rem;
+  }
   .features {
     margin: 0 6rem;
   }

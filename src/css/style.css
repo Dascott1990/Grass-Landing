@@ -169,13 +169,28 @@ img {
   border-radius: 2rem;
   background-color: var(--color-primary);
   color: #222;
+
+}nav__link--btns:link,
+.nav__link--btns:visited {
+  padding: 0.8rem 2.5rem;
+  border-radius: 2rem;
+  background-color: var(--color-primary);
+  color: #222;
 }
 
 .nav__link--btn:hover,
 .nav__link--btn:active {
   color: inherit;
   background-color: var(--color-primary-darker);
-  color: var(--black);
+  color: var(--white);
+  
+}
+.nav__link--btns:hover,
+.nav__link--btns:active {
+  padding: 0.8rem 2.5rem;
+  border-radius: 2rem;
+  background-color: var(--color-primary);
+  color: #222;
 }
 
 form {
